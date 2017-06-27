@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65DFD39B1F025B7400F573E5 /* StepProgress.gif in Resources */ = {isa = PBXBuildFile; fileRef = 65DFD39A1F025B7400F573E5 /* StepProgress.gif */; };
 		65F194061F0249AA0066160A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F194051F0249AA0066160A /* main.m */; };
 		65F194091F0249AA0066160A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F194081F0249AA0066160A /* AppDelegate.m */; };
 		65F1940C1F0249AA0066160A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F1940B1F0249AA0066160A /* ViewController.m */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		65DFD39A1F025B7400F573E5 /* StepProgress.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = StepProgress.gif; sourceTree = "<group>"; };
 		65F194011F0249AA0066160A /* XFStepProgress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XFStepProgress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65F194051F0249AA0066160A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		65F194071F0249AA0066160A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 		65F193F81F0249AA0066160A = {
 			isa = PBXGroup;
 			children = (
+				65DFD39A1F025B7400F573E5 /* StepProgress.gif */,
 				65F194031F0249AA0066160A /* XFStepProgress */,
 				65F1941D1F0249AA0066160A /* XFStepProgressTests */,
 				65F194281F0249AA0066160A /* XFStepProgressUITests */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65F194141F0249AA0066160A /* LaunchScreen.storyboard in Resources */,
+				65DFD39B1F025B7400F573E5 /* StepProgress.gif in Resources */,
 				65F194111F0249AA0066160A /* Assets.xcassets in Resources */,
 				65F1940F1F0249AA0066160A /* Main.storyboard in Resources */,
 			);
@@ -523,6 +527,7 @@
 				65F194301F0249AA0066160A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65F194311F0249AA0066160A /* Build configuration list for PBXNativeTarget "XFStepProgressTests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +536,7 @@
 				65F194331F0249AA0066160A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65F194341F0249AA0066160A /* Build configuration list for PBXNativeTarget "XFStepProgressUITests" */ = {
 			isa = XCConfigurationList;
@@ -539,6 +545,7 @@
 				65F194361F0249AA0066160A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
