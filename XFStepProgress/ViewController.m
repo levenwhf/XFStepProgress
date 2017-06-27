@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "XFStepView.h"
 
 @interface ViewController ()
+
+@property (strong, nonatomic)XFStepView *stepView;
 
 @end
 
@@ -16,13 +19,28 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    _stepView = [[XFStepView alloc]initWithFrame:CGRectMake(0, 50, self.view.frame.size.width, 60) Titles:[NSArray arrayWithObjects:@"第一步", @"第二步", @"第三步", @"第四步", @"第五步", nil]];
+    
+    [self.view addSubview:_stepView];
 }
 
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)clickPer:(id)sender
+{
+    int step = _stepView.stepIndex;
+    [_stepView setStepIndex:step - 1 Animation:YES];
+}
+
+- (IBAction)clickNext:(id)sender
+{
+    int step = _stepView.stepIndex;
+    [_stepView setStepIndex:step + 1 Animation:YES];
 }
 
 

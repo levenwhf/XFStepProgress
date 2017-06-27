@@ -15,6 +15,7 @@
 		65F194141F0249AA0066160A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65F194121F0249AA0066160A /* LaunchScreen.storyboard */; };
 		65F1941F1F0249AA0066160A /* XFStepProgressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F1941E1F0249AA0066160A /* XFStepProgressTests.m */; };
 		65F1942A1F0249AA0066160A /* XFStepProgressUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F194291F0249AA0066160A /* XFStepProgressUITests.m */; };
+		65F1943A1F024A3B0066160A /* XFStepView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F194391F024A3B0066160A /* XFStepView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		65F194251F0249AA0066160A /* XFStepProgressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XFStepProgressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65F194291F0249AA0066160A /* XFStepProgressUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XFStepProgressUITests.m; sourceTree = "<group>"; };
 		65F1942B1F0249AA0066160A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65F194381F024A3B0066160A /* XFStepView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFStepView.h; sourceTree = "<group>"; };
+		65F194391F024A3B0066160A /* XFStepView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFStepView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		65F194031F0249AA0066160A /* XFStepProgress */ = {
 			isa = PBXGroup;
 			children = (
+				65F194371F024A3B0066160A /* XFStepView */,
 				65F194071F0249AA0066160A /* AppDelegate.h */,
 				65F194081F0249AA0066160A /* AppDelegate.m */,
 				65F1940A1F0249AA0066160A /* ViewController.h */,
@@ -138,6 +142,15 @@
 				65F1942B1F0249AA0066160A /* Info.plist */,
 			);
 			path = XFStepProgressUITests;
+			sourceTree = "<group>";
+		};
+		65F194371F024A3B0066160A /* XFStepView */ = {
+			isa = PBXGroup;
+			children = (
+				65F194381F024A3B0066160A /* XFStepView.h */,
+				65F194391F024A3B0066160A /* XFStepView.m */,
+			);
+			path = XFStepView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65F1943A1F024A3B0066160A /* XFStepView.m in Sources */,
 				65F1940C1F0249AA0066160A /* ViewController.m in Sources */,
 				65F194091F0249AA0066160A /* AppDelegate.m in Sources */,
 				65F194061F0249AA0066160A /* main.m in Sources */,
